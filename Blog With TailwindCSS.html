@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Actualités de la Tech</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900 scroll-smooth">
+
+  <!-- En-tête -->
+  <header class="bg-white shadow sticky top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <h1 class="text-2xl font-bold text-blue-500">M@nou Tech</h1>
+      <nav>
+        <ul class="flex space-x-4">
+          <li><a href="#featured" class="hover:text-blue-500">Articles vedettes</a></li>
+          <li><a href="#categories" class="hover:text-blue-500">Catégories</a></li>
+          <li><a href="#recent" class="hover:text-blue-500">Articles récents</a></li>
+          <li><a href="#newsletter" class="hover:text-blue-500">Newsletter</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Articles vedettes -->
+  <section id="featured" class="py-8 bg-cover bg-center" style="background-image: url('background1.jpg');">
+    <div class="container mx-auto">
+      <h3 class="text-2xl font-bold mb-4 text-white mix-blend-difference">Articles vedettes</h3>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <a href="#" class="bg-white rounded shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-2xl p-4">
+          <img src="https://pic.clubic.com/v1/images/2267297/raw?fit=smartCrop&width=480&height=270&hash=54d706275d64325e0924b6631398c5bb90044a3e" alt="Article 1" class="w-full h-48 object-cover rounded mb-4">
+          <h4 class="text-lg font-bold">Mise à jour de l'application Telegram</h4>
+          <p class="text-gray-600">Avec cette nouvelle mise à jour, Telegram fait un nouveau pas dans la lutte contre l'escroquerie</p>
+        </a>
+        <a href="#" class="bg-white rounded shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-2xl p-4">
+          <img src="https://pic.clubic.com/v1/images/2267351/raw?fit=smartCrop&width=480&height=270&hash=fea90a83fbd5b32bdaefedc2d1333a413e8aa47a" alt="Article 2" class="w-full h-48 object-cover rounded mb-4">
+          <h4 class="text-lg font-bold">Moniteur de chez Samsung</h4>
+          <p class="text-gray-600">Samsung craque et dévoile à son tour ses nouveaux Moniteurs de 2025 avant le CES</p>
+        </a>
+        <a href="#" class="bg-white rounded shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-2xl p-4">
+          <img src="https://pic.clubic.com/v1/images/2258363/raw?fit=smartCrop&width=480&height=270&hash=26ee83cdd626fabdcb479e1260f0f008e35f5381" alt="Article 3" class="w-full h-48 object-cover rounded mb-4">
+          <h4 class="text-lg font-bold">NVIDIA RTX 5090</h4>
+          <p class="text-gray-600">La GeForce RTX 5090 sera bel et bien plus gourmande que la RTX 4090, mais pas autant que prévu</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+ <!-- Catégories -->
+<section id="categories" class="py-8 bg-cover bg-center" style="background-image: url('background2.jpg');">
+  <div class="container mx-auto">
+    <h3 class="text-2xl font-bold mb-4 text-white mix-blend-difference">Catégories</h3>
+    <div class="space-y-4">
+      <!-- Catégorie 1 -->
+      <details class="bg-blue-500 text-white rounded shadow-lg transform transition duration-300 hover:scale-105 hover:bg-blue-600">
+        <summary class="p-4 flex justify-center items-center cursor-pointer text-center">
+          <p class="text-xl font-semibold">TEST</p>
+        </summary>
+        <div class="bg-white text-gray-900 p-4">
+          <ul class="space-y-2">
+            <li><a href="#" class="hover:text-blue-500">Test du Samsung Galaxy A17 - Le bon choix à petit prix?</a></li>
+            <li><a href="#" class="hover:text-blue-500">Test du Acer Nitro V20 - Des performances solides pour un prix contenu!</a></li>
+            <li><a href="#" class="hover:text-blue-500">Honor Magic 9 pro - Notre prise en main d'un smartphone prometteur</a></li>
+          </ul>
+        </div>
+      </details>
+      <!-- Catégorie 2 -->
+      <details class="bg-purple-500 text-white rounded shadow-lg transform transition duration-300 hover:scale-105 hover:bg-purple-600">
+        <summary class="p-4 flex justify-center items-center cursor-pointer text-center">
+          <p class="text-xl font-semibold">ACTUALITÉ</p>
+        </summary>
+        <div class="bg-white text-gray-900 p-4">
+          <ul class="space-y-2">
+            <li><a href="#" class="hover:text-purple-500">Cyberattaque : des extensions Chrome piratées menacent les données de centaines de milliers d’internautes, comment réagir ?</a></li>
+            <li><a href="#" class="hover:text-purple-500">Au détail, le processeur Ryzen 9800X3D d'AMD écrase toutes les autres références... combinées !</a></li>
+            <li><a href="#" class="hover:text-purple-500">iPhone : et si Apple faisait une infidélité à Sony pour ses prochains capteurs photos ?</a></li>
+          </ul>
+        </div>
+      </details>
+      <!-- Catégorie 3 -->
+      <details class="bg-green-500 text-white rounded shadow-lg transform transition duration-300 hover:scale-105 hover:bg-green-600">
+        <summary class="p-4 flex justify-center items-center cursor-pointer text-center">
+          <p class="text-xl font-semibold">BON PLAN</p>
+        </summary>
+        <div class="bg-white text-gray-900 p-4">
+          <ul class="space-y-2">
+            <li><a href="#" class="hover:text-green-500"> Elu meilleur VPN de 2025 : ce VPN est la solution ultime pour une navigation privée et sans limite !</a></li>
+            <li><a href="#" class="hover:text-green-500">Voici comment obtenir Canal+, Netflix, TV+, MAX et plus encore... à prix MINI </a></li>
+            <li><a href="#" class="hover:text-green-500">TOP 30 des Ventes Flash Amazon de dernière minute à saisir pour Noël 🔥</a></li>
+          </ul>
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
+
+    <!-- Articles récents -->
+    <section id="recent" class="py-8 bg-cover bg-center" style="background-image: url('background3.jpg');">
+      <div class="container mx-auto">
+        <h3 class="text-2xl font-bold mb-4 text-white mix-blend-difference">Articles récents</h3>
+        <ul class="bg-white rounded p-4 shadow space-y-4">
+          <li class="flex items-center space-x-4 hover:bg-gray-100 transition duration-300">
+            <a href="#" class="flex items-center space-x-4">
+              <img src="https://pic.clubic.com/v1/images/2132488/raw?fit=smartCrop&width=480&height=270&hash=b48f093230bfed03b70a50dc6b75d4b5a1674d25" alt="Image Article 1" class="w-25 h-25 object-cover rounded transform hover:scale-105 hover:opacity-90 transition duration-300">
+              <div>
+                <h4 class="text-lg font-bold">Avec Eclipsa Audio, Samsung et Google partent à l'assaut du Dolby Atmos</h4>
+                <p class="text-gray-500">Publié le <span>3 Janvier 2025</span> par <span class="text-blue-500">Emmanuel Jean</span></p>
+              </div>
+            </a>
+          </li>
+          <li class="flex items-center space-x-4 hover:bg-gray-100 transition duration-300">
+            <a href="#" class="flex items-center space-x-4">
+              <img src="https://pic.clubic.com/v1/images/2267408/raw?fit=smartCrop&width=480&height=270&hash=c5acdfc9259ea69dbb47aa8a3e1ed05e5db9372c" alt="Image Article 2" class="w-25 h-25 object-cover rounded transform hover:scale-105 hover:opacity-90 transition duration-300">
+              <div>
+                <h4 class="text-lg font-bold">Fraude fiscale : l'intelligence artificielle du fisc va analyser vos posts sur les réseaux sociaux</h4>
+                <p class="text-gray-500">Publié le <span>03 janvier 2025</span> par <span class="text-blue-500">Emmanuel Jean</span></p>
+              </div>
+            </a>
+          </li>
+          <li class="flex items-center space-x-4 hover:bg-gray-100 transition duration-300">
+            <a href="#" class="flex items-center space-x-4">
+              <img src="https://pic.clubic.com/v1/images/2267237/raw?fit=smartCrop&width=480&height=270&hash=354e680cd5818a50bf9af44c92bc9e06b3406fad" alt="Image Article 3" class="w-25 h-25 object-cover rounded transform hover:scale-105 hover:opacity-90 transition duration-300">
+              <div>
+                <h4 class="text-lg font-bold">Le malaimé Windows 11 gagne du terrain chez les joueurs et les createurs</h4>
+                <p class="text-gray-500">Publié le <span>03 janvier 2025</span> par <span class="text-blue-500">Emmanuel Jean</span></p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  <!-- Newsletter -->
+  <section id="newsletter" class="py-8 bg-white">
+    <div class="container mx-auto">
+      <h3 class="text-2xl font-bold mb-4 text-white mix-blend-difference">Inscrivez-vous à notre Newsletter</h3>
+      <form class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
+        <input type="text" placeholder="Votre nom" class="p-3 border rounded w-full focus:ring-2 focus:ring-blue-500 transition duration-300">
+        <input type="email" placeholder="Votre email" class="p-3 border rounded w-full focus:ring-2 focus:ring-blue-500 transition duration-300">
+        <button type="submit" class="bg-blue-500 text-white p-3 rounded hover:bg-blue-600">S'abonner</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <p>&copy; 2025 M@nou Tech. Tous droits réservés.</p>
+      <div class="flex space-x-4">
+        <a href="#" class="hover:text-blue-700">Facebook</a>
+        <a href="#" class="hover:text-blue-400">X</a>
+        <a href="#" class="hover:text-red-900">Instagram</a>
+        <a href="#" class="hover:text-blue-400">Linkedin</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

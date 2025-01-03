@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amalaman's Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+    <!-- Header -->
+    <header class="bg-gray-800 py-4 shadow-lg fixed w-full z-50">
+        <div class="container mx-auto flex justify-between items-center px-6">
+            <h1 class="text-3xl font-bold">My Portfolio</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#about" class="hover:text-yellow-400">About</a></li>
+                    <li><a href="#projects" class="hover:text-yellow-400">Projects</a></li>
+                    <li><a href="#experience" class="hover:text-yellow-400">Experience</a></li>
+                    <li><a href="#contact" class="hover:text-yellow-400">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-cover bg-center h-screen" style="background-image: url('https://plus.unsplash.com/premium_photo-1678565999332-1cde462f7b24?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
+        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+            <div class="text-center animate-slide-in">
+                <h2 class="text-4xl md:text-6xl font-bold mb-4">Welcome to My Portfolio</h2>
+                <p class="text-lg md:text-xl mb-6">Here, you can discover my projects and skills.</p>
+                <div class="space-x-4">
+                    <a href="#about" class="bg-yellow-400 text-gray-900 px-6 py-3 rounded-full text-lg hover:bg-yellow-500 transition">Learn More About Me</a>
+                    <a href="/path/to/cv.pdf" download class="bg-blue-500 text-white px-6 py-3 rounded-full text-lg hover:bg-blue-600 transition">Download my CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-900">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold mb-8 text-center">About Me</h2>
+            <div class="flex flex-wrap items-center justify-center">
+                <img src="Photo CV DAV.jpg" alt="Profile" class="w-48 h-48 rounded-full mb-6 md:mb-0 md:mr-8">
+                <div>
+                    <p class="text-lg text-center md:text-left max-w-xl">
+                        Hello! I'm a passionate Full Stack developer. I have some experience in coding and have worked on a few projects. I love to explore new technologies and constantly strive to improve my skills.
+                    </p>
+                    <div class="mt-4 flex space-x-4 justify-center md:justify-start">
+                        <a href="https://www.linkedin.com" target="_blank" class="text-blue-500 hover:text-blue-400">LinkedIn</a>
+                        <a href="https://www.github.com" target="_blank" class="text-gray-400 hover:text-gray-300">GitHub</a>
+                        <a href="https://twitter.com" target="_blank" class="text-blue-300 hover:text-blue-200">Twitter</a>
+                        <a href="https://facebook.com" target="_blank" class="text-blue-800 hover:text-blue-200">Facebook</a>
+                        <a href="/path/to/cv.pdf" download class="text-yellow-400 hover:text-yellow-300">Download my CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Project section -->
+<section id="projects" class="py-20 bg-gray-800">
+    <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-bold mb-8 text-center">Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Project Cards -->
+            <div class="bg-gray-700 rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition">
+                <img src="https://images.unsplash.com/photo-1508317469940-e3de49ba902e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Project" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Lorem ipsum dolor</h3>
+                    <p class="text-gray-400">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus odit, pariatur delectus maiores saepe praesentium nobis similique dolore repellat enim qui molestiae magni, nam modi! Ratione autem asperiores maxime ut!. Click below to view more details.</p>
+                    <a href="#" class="block mt-4 text-yellow-400 hover:text-yellow-500">View Project</a>
+                </div>
+            </div>
+            <div class="bg-gray-700 rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition">
+                <img src="https://images.unsplash.com/photo-1523437113738-bbd3cc89fb19?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Project" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Lorem ipsum dolor</h3>
+                    <p class="text-gray-400">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit assumenda sunt unde vitae voluptatibus illo reiciendis porro! Earum temporibus, illum similique delectus, sapiente velit explicabo ad dolor exercitationem, quaerat consequuntur. Click below to view more details.</p>
+                    <a href="#" class="block mt-4 text-yellow-400 hover:text-yellow-500">View Project</a>
+                </div>
+            </div>
+            <div class="bg-gray-700 rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition">
+                <img src="https://images.unsplash.com/photo-1604403428907-673e7f4cd341?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Project" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Lorem ipsum dolor</h3>
+                    <p class="text-gray-400">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, repellendus fuga. Quibusdam fugiat odit corrupti nostrum nulla repudiandae blanditiis laudantium, itaque illo sint unde vitae quia provident eaque dicta fugit!. Click below to view more details.</p>
+                    <a href="#" class="block mt-4 text-yellow-400 hover:text-yellow-500">View Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 bg-gray-900">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold mb-8 text-center">Work Experience</h2>
+            <div class="space-y-8">
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg animate-slide-in">
+                    <h3 class="text-2xl font-bold">Full Stack Developer</h3>
+                    <p class="text-gray-400">Go My Code | Jan 2020 - Dec 2022</p>
+                    <ul class="list-disc ml-6 text-gray-300">
+                        <li>Developed and maintained web applications using React and Node.js.</li>
+                        <li>Improved performance by 30% by optimizing backend services.</li>
+                        <li>Collaborated with a team of 10+ developers and designers.</li>
+                    </ul>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg animate-slide-in">
+                    <h3 class="text-2xl font-bold">Frontend Developer</h3>
+                    <p class="text-gray-400">Go My Code | Jan 2018 - Dec 2019</p>
+                    <ul class="list-disc ml-6 text-gray-300">
+                        <li>Created responsive UI components using modern frameworks.</li>
+                        <li>Collaborated with product teams to define and implement features.</li>
+                        <li>Enhanced accessibility compliance across multiple projects.</li>
+                    </ul>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg animate-slide-in">
+                    <h3 class="text-2xl font-bold">Backend Developer</h3>
+                    <p class="text-gray-400">Go My Code | Jan 2016 - Dec 2017</p>
+                    <ul class="list-disc ml-6 text-gray-300">
+                        <li>Designed and implemented RESTful APIs.</li>
+                        <li>Integrated third-party services and optimized database queries.</li>
+                        <li>Conducted system monitoring and troubleshooting.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+            <section id="contact" class="py-20 bg-gray-900">
+                <div class="container mx-auto px-6">
+                    <h2 class="text-4xl font-bold mb-8 text-center">Contact</h2>
+                    
+                    <!-- Wrapper for Forms -->
+                    <div class="flex flex-col lg:flex-row lg:justify-between lg:space-x-6">
+                        <!-- First forms -->
+                        <form action="#" method="POST" class="flex-1 bg-gray-800 p-8 rounded-lg mb-6 lg:mb-0">
+                            <h3 class="text-2xl font-bold mb-4 text-center">Send a Message</h3>
+                            <div class="mb-6">
+                                <label for="name" class="block text-gray-400 mb-2">Name</label>
+                                <input type="text" id="name" name="name" class="w-full px-4 py-2 rounded-lg bg-gray-700 border border-gray-600 focus:outline-none focus:border-yellow-400">
+                            </div>
+                            <div class="mb-6">
+                                <label for="email" class="block text-gray-400 mb-2">Email</label>
+                                <input type="email" id="email" name="email" class="w-full px-4 py-2 rounded-lg bg-gray-700 border border-gray-600 focus:outline-none focus:border-yellow-400">
+                            </div>
+                            <div class="mb-6">
+                                <label for="message" class="block text-gray-400 mb-2">Message</label>
+                                <textarea id="message" name="message" rows="4" class="w-full px-4 py-2 rounded-lg bg-gray-700 border border-gray-600 focus:outline-none focus:border-yellow-400"></textarea>
+                            </div>
+                            <button type="submit" class="w-full bg-yellow-400 text-gray-900 px-4 py-2 rounded-lg hover:bg-yellow-500 transition">Send Message</button>
+                        </form>
+            
+                      <!-- Second Forms with whatsapp button -->
+                         <form action="#" method="POST" class="flex-1 bg-gray-800 p-8 rounded-lg">
+    <h3 class="text-2xl font-bold mb-4 text-center">Contact Me Directly</h3>
+    <div class="mb-6">
+        <label for="personal-email" class="block text-gray-400 mb-2">My Email</label>
+        <input type="email" id="personal-email" name="personal-email" value="amalamandavid@gmail.com" readonly class="w-full px-4 py-2 rounded-lg bg-gray-700 border border-gray-600 focus:outline-none focus:border-yellow-400">
+    </div>
+    <div class="mb-6">
+        <label for="phone-number" class="block text-gray-400 mb-2">Phone Number</label>
+        <input type="text" id="phone-number" name="phone-number" value="+2250748565792" readonly class="w-full px-4 py-2 rounded-lg bg-gray-700 border border-gray-600 focus:outline-none focus:border-yellow-400">
+    </div>
+    <div class="mb-6">
+        <label for="location" class="block text-gray-400 mb-2">Location</label>
+        <input type="text" id="location" name="location" value="Abidjan, Côte d'ivoire" readonly class="w-full px-4 py-2 rounded-lg bg-gray-700 border border-gray-600 focus:outline-none focus:border-yellow-400">
+    </div>
+    <!-- WhatsApp button -->
+    <div class="text-center mt-6">
+        <a href="https://wa.me/+2250153816493" target="_blank" class="inline-flex items-center bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition">
+            <svg class="w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M20.52 3.48a11.79 11.79 0 0 0-16.69 0A11.79 11.79 0 0 0 .23 15.87L.03 22l6.26-1.6a11.8 11.8 0 0 0 6.16 1.64 11.79 11.79 0 0 0 8.35-3.47 11.79 11.79 0 0 0 0-16.69zm-1.9 14.78a9.38 9.38 0 0 1-6.65 2.75 9.3 9.3 0 0 1-4.73-1.27l-.34-.2-3.71.95.95-3.71-.21-.34a9.36 9.36 0 0 1 1.9-11.87 9.36 9.36 0 0 1 13.2 0 9.36 9.36 0 0 1 0 13.2zm-3.4-2.93c-.2-.1-1.17-.58-1.35-.64s-.31-.1-.45.1-.52.64-.65.77-.24.15-.44.05a7.53 7.53 0 0 1-2.2-1.35 8.35 8.35 0 0 1-1.52-1.88c-.16-.27 0-.41.12-.57.12-.15.24-.26.36-.4s.16-.2.24-.33.04-.25 0-.36-.45-1.08-.62-1.49-.33-.33-.45-.34h-.38a.74.74 0 0 0-.54.26 2.27 2.27 0 0 0-.74 1.67 3.94 3.94 0 0 0 .82 2.06 9.12 9.12 0 0 0 3.78 3.54c.52.22.93.35 1.25.45.53.17 1.01.14 1.39.08.43-.06 1.17-.48 1.34-.95s.16-.87.12-.95-.18-.15-.37-.25z"/>
+            </svg>
+            Write to me on WhatsApp
+        </a>
+    </div>
+</form>
+                    </div>
+                </div>
+            </section>
+    
+    <!-- Footer -->
+    <footer class="bg-gray-800 py-4 text-center">
+        <div class="container mx-auto px-6">
+            <p class="text-gray-400">&copy; 2024 Amalaman's Portfolio. All rights reserved.</p>
+            <div class="mt-4 flex justify-center space-x-4">
+                <a href="https://www.linkedin.com" target="_blank" class="text-blue-500 hover:text-blue-400">LinkedIn</a>
+                <a href="https://www.github.com" target="_blank" class="text-gray-400 hover:text-gray-300">GitHub</a>
+                <a href="https://twitter.com" target="_blank" class="text-blue-300 hover:text-blue-200">Twitter</a>
+                <a href="https://facebook.com" target="_blank" class="text-blue-800 hover:text-blue-200">Facebook</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
